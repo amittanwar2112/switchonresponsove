@@ -1,0 +1,68 @@
+.buttonclass{
+    margin: 10px;
+    display: block;
+    font-size: 10px;
+}
+@media (min-width: 480px) {
+    .buttonclass{
+        display: flex;
+    }
+  }
+.inputsearchiconclass{
+    border-radius: 19px 0px 0px 19px;
+}
+.iconclass{
+    font-size: 5px;
+}
+.inputsearchclass{
+    border-radius: 0px 19px 19px 0px;
+}
+.inputclass{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+@media (min-width: 480px) {
+    .inputclass{
+        margin-left: 10px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+  }
+.cardclass{
+    border: 1px solid #999966;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+@media (min-width: 480px) {
+    .cardclass{
+        margin: 5px;
+       
+    }
+  }
+  .cardbodyclass{
+    max-height: 150px;
+    overflow-y: auto;
+}
+@media (min-width: 480px) {
+    .cardbodyclass{
+        max-height: 520px;
+    }
+  }
+.cardheaderclass{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px 20px 0px 0px !important ;
+}
+.cardheaderclass1{
+   background-color: #ffff33;
+}
+.cardheaderclass2{
+    background-color: #5cd65c;
+ }
+ .cardheaderclass3{
+    background-color: #66ffb3;
+ }
+
+

@@ -1,0 +1,68 @@
+.formclass{
+    margin: 15px 10px 0px 20px;
+}
+.sidelayoutclass{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #999966;
+    height: 100%;
+}
+.sidelayoutclass1{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #999966;
+}
+@media (min-width: 480px) {
+    .sidelayoutclass1{
+      height: 100vh !important;
+    }
+  }
+.buttonclass{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media (min-width: 480px) {
+    .buttonclass{
+        margin: 5px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+  }
+.newcardclass{
+    border: 1px solid black;
+    border-radius: 20px;
+    max-height: 350px;
+    overflow-y: auto;
+    margin: 10px;
+}
+@media (min-width: 480px) {
+    .newcardclass{
+        max-height: 550px;
+        margin: 5px;
+       
+    }
+  }
+.inputclass{
+display: block;
+margin-bottom: 7px;
+}
+.iconclass{
+    margin-top: 2px;
+    
+}
+@media (min-width: 480px) {
+    .iconclass{
+        margin-top: 10px;
+        
+    }
+  }
+.subtaskclass{
+    margin: 10px 0px 10px 20px;
+    width: 70%;
+}
+@media (min-width: 480px) {
+    .subtaskclass{
+        width: 50%;
+    }
+  }
